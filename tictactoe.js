@@ -1,4 +1,4 @@
-const gameBoard = () => {
+const gameBoard = (() => {
     const setBoard = () => {
         for (let i = 1; i<= 9; i++) {
             //const board = document.querySelector(".gameboard");
@@ -16,8 +16,8 @@ const gameBoard = () => {
 
     };
     const boardLayout = setBoard(); 
-    return {boardLayout}
-};
+    return {boardLayout, setBoard}
+})();
 
 const players = ()  => {
  const playerOne = document.getElementById("player1").value;
