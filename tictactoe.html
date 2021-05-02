@@ -13,16 +13,25 @@
         <link rel="stylesheet" href="tictactoe.css">
     </head>
     <body>
+        <div class="playerControlPanel">
+            <form action="">
+                <label for="player1">Player 1 is "X"'s</label>
+                <input type="text" id="player1" name="player1" value="X's">
+                <label for="player2">Player 2 is "O"'s</label>
+                <input type="text" id="player2" name="player2" value="O's">
+            </form>
+            <button id="startGame" onclick="gameBoard.boardLayout()()">Start the Game!</button>
+        </div>
         <div class="gameboard">
-            <div class="gamebox" id="gb1"></div>
-            <div class="gamebox" id="gb2"></div>
-            <div class="gamebox" id="gb3"></div>
-            <div class="gamebox" id="gb4"></div>
-            <div class="gamebox" id="gb5"></div>
-            <div class="gamebox" id="gb6"></div>
-            <div class="gamebox" id="gb7"></div>
-            <div class="gamebox" id="gb8"></div>
-            <div class="gamebox" id="gb9"></div>
+            <button class="gamebox" id="gb1"></button>
+            <button class="gamebox" id="gb2"></button>
+            <button class="gamebox" id="gb3"></button>
+            <button class="gamebox" id="gb4"></button>
+            <button class="gamebox" id="gb5"></button>
+            <button class="gamebox" id="gb6"></button>
+            <button class="gamebox" id="gb7"></button>
+            <button class="gamebox" id="gb8"></button>
+            <button class="gamebox" id="gb9"></button>
 
         </div>
         <!--[if lt IE 7]>
