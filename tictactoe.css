@@ -1,0 +1,68 @@
+.gameboard {
+    /*background-color: aqua; */
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gamebox {
+    width: 32%;
+    height: 32%;
+
+}
+
+#gb1 {
+    border-right: black;
+    border-right-width: 1%;
+    border-right-style: solid;
+    border-bottom: black;
+    border-bottom-width: 1%;
+    border-bottom-style: solid;
+}
+#gb2 {
+    border-bottom: black;
+    border-bottom-width: 1%;
+    border-bottom-style: solid;
+}
+#gb3 {
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 1%;
+    border-bottom: black;
+    border-bottom-width: 1%;
+    border-bottom-style: solid;
+}
+#gb4 {
+    /*border-top-style: solid;
+    border-top-color: black;
+    border-top-width: 1%;*/
+    border-bottom: black;
+    border-bottom-width: 1%;
+    border-bottom-style: solid;
+}
+#gb5 {
+    margin-top: 0%;
+    border-right: black;
+    border-right-width: 1%;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 1%;
+    border-bottom: black;
+    border-bottom-width: 1%;
+    border-bottom-style: solid;
+}
+#gb6 {
+    border-bottom: black;
+    border-bottom-width: 1%;
+    border-bottom-style: solid;
+}
+
+#gb8 {
+    border-right: black;
+    border-right-width: 1%;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 1%;
+}
