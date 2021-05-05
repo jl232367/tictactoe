@@ -7,7 +7,7 @@ const gameBoard = (() => {
             //const board = document.querySelector(".gameboard");
             const boardSquare = document.getElementById("gb" + i);
             boardSquare.addEventListener('click', (e) => {
-                if (players.currentPlayer = players.playerOne) {
+                if (players.currentPlayer == players.playerOne) {
                     const currentSquare = e.target.getAttribute("id");
                     currentSquare.innerHTML = "X!"
                     console.log("The 'if' executed")
@@ -31,7 +31,7 @@ const players = ()  => {
  const playerTwo = document.getElementById("player2").value;
  const currentPlayer = playerOne
  const switchPlayer = cp => {
-     if (cp = playerOne) {
+     if (cp == playerOne) {
          cp = playerTwo;
      } else {
          cp = playerOne;
